@@ -1,0 +1,101 @@
+body {
+    background-color: var(--very-dark-blue);
+}
+
+.nftcard__container {
+    max-width: 350px;
+    margin: 2rem auto;
+
+    background-color: var(--dark-blue);
+    padding: 1.5rem;
+
+    border-radius: 16px;
+    
+    font-family: var(--outfit);
+}
+
+.nftcard__details {
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 1rem;
+    
+}
+
+.nftcard__details img {
+    border-radius: 12px;
+}
+
+.nftcard__title {
+    color: var(--white);
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding: 1rem 0 1rem 0;
+}
+
+.nftcard__description {
+    color: var(--soft-blue);
+    font-size: 1.1rem;
+    line-height: normal;
+    font-weight: 300;
+}
+
+.nftcard__values {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--dark-light-blue);
+    
+}
+
+.nftcard__values-price {
+    font-weight: 600;
+    color: var(--cyan);
+}
+
+.nftcard__values-time {
+    font-weight: 300;
+    color: var(--soft-blue);
+}
+
+.nftcard__values-price::before {
+    content: url('../images/icon-ethereum.svg');
+    z-index: 1;
+    padding-right: .5rem;
+    position: relative;
+    top: 4px;
+}
+
+.nftcard__values-time::before {
+    content: url('../images/icon-clock.svg');
+    z-index: 1;
+    padding-right: .5rem;
+    position: relative;
+    top: 4px;
+}
+
+
+
+
+.nftcard__autor {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+.nftcard__autor-img {
+    border: 1px solid var(--white);
+    border-radius: 50%;
+    max-width: 30px;
+}
+
+.nftcard__autor-details {
+    padding-left: 1rem;
+    font-weight: 300;
+    color: var(--soft-blue);
+}
+
+.autor-name {
+    color: var(--white);
+}
